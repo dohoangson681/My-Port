@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body {
+    background-color: cadetblue;
+}
+.navBar{
+    display: flex;
+    justify-content: center;
+}
+.navBar>li  {
+    display: inline;
+    margin: 0px 15px;
+    
+}
+.navBar>li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.nav__item {
+    position: relative;
+}
+.sub__menu {
+    position: absolute;
+}
+.sub__menu>li {
+    list-style: none;
+    background-color: green;
+    width: 200px;
+    padding: 10px;
+    text-align: left;
+    display: none;
+    
+}
+.nav__item:active .sub__menu>li {
+    display: block;
+}

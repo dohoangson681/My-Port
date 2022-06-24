@@ -1,0 +1,24 @@
+/* desktop first  */
+h1{
+    background-color: red;
+}
+/* man hinh lon truoc nho sau  */
+
+/* 992 px  */
+@media screen and (max-width:992px) {
+    /* vung anh huong <= 992px  */
+    h1{
+        background-color: yellow ;
+    }
+
+}
+
+
+/* 576px  */
+@media screen and (max-width:576px) {
+    /* vung anh huong <= 992px  */
+    h1{
+        background-color: green;
+    }
+
+}
